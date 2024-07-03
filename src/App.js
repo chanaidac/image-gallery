@@ -45,16 +45,18 @@ let galList = [
 
 let App = () => {
   return (
-    <div className='gallery'>
-      {
-        galList.map((item) => {
-          return (
-            <Gallery img_name={item.name} img_url={item.img_url}></Gallery>
-          )
-        })
-      }
+    <div>
+      <h1>Image Gallery</h1>
+      <div className='gallery'>
+        {
+          galList.map((item) => {
+            return (
+              <Gallery img_name={item.name} img_url={item.img_url}></Gallery>
+            )
+          })
+        }
+      </div>
     </div>
-
   )
 }
 export default App;

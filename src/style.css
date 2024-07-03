@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gallery {
+    width: 690px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 20px;
+    background: #ccc;
+    padding: 20px;
+}
+.gal_div {
+    width: 100px;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #6f6f6f;
+    gap: 10px;
+}
+.gal_div img{
+    width: 100%;
+    height: auto;
+}
+.gal_div p{
+    font-size: 12px;
+}
